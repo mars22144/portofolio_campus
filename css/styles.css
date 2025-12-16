@@ -1372,13 +1372,6 @@ hr.fancy::before {
     margin-left: 10%;
 }
 
-.pull-quote {
-    position   : relative;
-    padding    : 0;
-    margin-top : 0;
-    text-align : center;
-}
-
 .pull-quote blockquote {
     border      : none;
     margin      : 0 auto;
@@ -1392,44 +1385,6 @@ hr.fancy::before {
     color       : var(--color-text-dark);
 }
 
-.pull-quote blockquote:before {
-    content           : "";
-    display           : block;
-    height            : var(--vspace-1);
-    width             : var(--vspace-1);
-    background-repeat : no-repeat;
-    background        : center center;
-    background-size   : contain;
-    background-image  : url(../images/icons/icon-quote.svg);
-    transform         : translate(-50%, 0, 0);
-    position          : absolute;
-    top               : var(--vspace-1);
-    left              : 50%;
-}
-
-.drop-cap:first-letter {
-    float          : left;
-    font-family    : var(--font-1);
-    font-weight    : 600;
-    font-size      : calc(3 * var(--space));
-    line-height    : 1;
-    padding        : 0 0.125em 0 0;
-    text-transform : uppercase;
-    background     : transparent;
-    color          : var(--color-text-dark);
-}
-
-.text-center {
-    text-align : center;
-}
-
-.text-left {
-    text-align : left;
-}
-
-.text-right {
-    text-align : right;
-}
 
 /* --------------------------------------------------------------------
  * ## lists
