@@ -3577,20 +3577,6 @@ img.u-pull-left {
     position     : relative;
 }
 
-.modal-popup__cat::before {
-    content             : "";
-    display             : block;
-    height              : calc(0.625 * var(--space));
-    width               : calc(0.625 * var(--space));
-    background-repeat   : no-repeat;
-    background-position : center;
-    background-size     : contain;
-    background-image    : url(../images/icons/icon-tag.svg);
-    position            : absolute;
-    left                : 0;
-    top                 : -0.15em;
-}
-
 .modal-popup__cat li {
     display      : inline;
     padding-left : 0;
